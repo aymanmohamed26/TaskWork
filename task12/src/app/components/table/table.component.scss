@@ -1,0 +1,174 @@
+.table_header {
+    text-align: center;
+
+}
+
+.table_header_data {
+    text-align: center;
+}
+
+.table_header_data_name {
+    text-align: center;
+    float: left;
+}
+
+.userImage {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    margin: 0 .5em;
+
+}
+
+.iconDownload {
+    font-size: 1.1em;
+    color: #8b75f9;
+    padding: .5em;
+    border-radius: 8%;
+    border: solid #D8DADC 1px;
+    background-color: rgb(224, 222, 230);
+}
+
+.iconDownload2 {
+    font-size: 1.1em;
+    color: #8b75f9;
+    padding: .5em;
+    border-radius: 8%;
+    border: solid #D8DADC 1px;
+
+}
+
+::ng-deep .p-highlight:hover:focus:active .p-link:hover:focus:active {
+    background-color: #8b75f9;
+    color: #D8DADC;
+    border-radius: 8%;
+}
+
+::ng-deep .p-highlight {
+    background-color: #8b75f9 !important;
+    color: #D8DADC;
+    border-radius: 8%;
+}
+
+::ng-deep .p-ripple:focus {
+    background-color: #8b75f9;
+    color: #D8DADC;
+    border-radius: 8%;
+}
+
+
+::ng-deep .p-hidden-accessible {
+    background-color: #8b75f9;
+    color: #D8DADC;
+    border-radius: 8%;
+}
+
+::ng-deep .p-paginator-rpp-options {
+    color: #8b75f9;
+    border-radius: 8%;
+    width: 5em;
+}
+::ng-deep .p-datatable-header {
+    padding: 0 1em;
+}
+
+::ng-deep .p-paginator {
+    display: flex;
+    justify-content: space-between;
+    direction: ltr !important;
+
+}
+
+::ng-deep .p-dropdown-items {
+    margin: 0;
+    padding: 0;
+
+}
+
+::ng-deep .p-paginator-first {
+    display: none;
+
+}
+
+::ng-deep .p-paginator-last {
+    display: none;
+
+}
+
+::ng-deep .p-button-label {
+    color: #fff;
+
+}
+
+::ng-deep .p-inputswitch.p-inputswitch-checked .p-inputswitch-slider {
+    background: #D8DADC;
+}
+
+::ng-deep .p-inputswitch .p-inputswitch-slider {
+    background: #8b75f9;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+    border-radius: 30px;
+    box-shadow: 0 0 5px #8b75f9;
+}
+
+::ng-deep .p-ripple:has(.p-button-label) {
+    background-color: #8b75f9;
+}
+
+::ng-deep .p-ripple:has(.p-button-label):active {
+    background-color: rgb(147, 93, 197);
+}
+
+::ng-deep span.p-inputswitch-slider {
+    padding: .5em;
+}
+
+
+::placeholder {
+    color: rgb(154, 154, 154);
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: .6em 2em;
+    margin: .8em 0;
+}
+
+.iconTextSmall {
+    color: #607D8B;
+    font-size: .8em;
+}
+
+.iconText {
+    font-size: 1em;
+}
+
+.form-check-input:checked {
+    background-color: #8b75f9;
+    border-color: #8b75f9;
+    box-shadow: 0 0 5px #8b75f9;
+}
+
+.form-check-input:focus {
+    border-color: #8b75f9;
+    outline: 0;
+    box-shadow: 0 0 5px #8b75f9;
+}
+.bookTicket{
+    padding: .5em;
+    margin: 0 1em;
+    background-color: #8b75f9;
+    border: solid #D8DADC 1px;
+    color: #fff;
+    border-radius: .8em;
+}
+.form-check-input:checked{
+    background-color: #8b75f9;
+}
+.filterIcon{
+    background-color: #fff;
+    color: gray;
+    border-radius: .5em;
+}
